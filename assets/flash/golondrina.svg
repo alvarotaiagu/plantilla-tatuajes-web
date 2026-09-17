@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Diseño de flash: una golondrina con el ala abierta y la cola en horquilla">
+  <title>Golondrina</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 118c10-30 38-52 74-58-8 36-34 60-70 74z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 118c10-30 38-52 74-58-8 36-34 60-70 74"/>
+    <path pathLength="1" d="M104 148c14-10 36-14 56-10-16 18-38 26-58 24"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M78 104c-14 2-22 12-22 24 0 16 14 28 34 34 20 6 40 8 58 6-12-16-26-28-40-38-12-10-20-22-30-26z"/>
+    <path pathLength="1" d="M78 104c-6-8-4-18 4-24 10-6 22-4 28 6 4 6 4 14 0 20"/>
+    <path pathLength="1" d="M70 84l-24 6 18 10"/>
+  </g>
+  <g class="tinta" fill="#17141B" opacity="0">
+    <circle pathLength="1" cx="80" cy="88" r="4"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle pathLength="1" cx="80" cy="88" r="4"/>
+    <path pathLength="1" d="M148 168c16 6 30 16 40 30-18 2-34-2-48-10"/>
+    <path pathLength="1" d="M140 172c6 18 8 36 4 54-14-12-22-28-26-44"/>
+    <path pathLength="1" d="M148 168l-8 4"/>
+  </g>
+</svg>

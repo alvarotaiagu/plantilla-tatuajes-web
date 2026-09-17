@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Diseño de flash: un puñal atravesando una rosa">
+  <title>Puñal y rosa</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 18l16 52h-32z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 16l18 56-18 10-18-10z"/>
+    <path pathLength="1" d="M100 30v46"/>
+    <path pathLength="1" d="M64 82h72"/>
+    <path pathLength="1" d="M70 82c0 10 12 14 30 14s30-4 30-14"/>
+    <path pathLength="1" d="M92 170h16v34h-16z"/>
+    <path pathLength="1" d="M86 204h28l-6 20H92z"/>
+    <path pathLength="1" d="M100 96v74"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 104c-24 0-40 14-40 32s16 34 40 34 40-16 40-34-16-32-40-32z"/>
+    <path pathLength="1" d="M100 120c-14 0-24 8-24 18s10 18 24 18 24-8 24-18-10-18-24-18z"/>
+    <path pathLength="1" d="M100 134c-7 0-12 4-12 9s5 9 12 9 12-4 12-9-5-9-12-9z"/>
+    <path pathLength="1" d="M62 152c-14-4-24-16-24-30 14 0 26 6 32 16"/>
+    <path pathLength="1" d="M138 152c14-4 24-16 24-30-14 0-26 6-32 16"/>
+  </g>
+</svg>

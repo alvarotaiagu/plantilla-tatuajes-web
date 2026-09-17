@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Diseño de flash: una serpiente en ese con la lengua fuera">
+  <title>Serpe</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M150 54c-6-16 2-30 18-30s26 12 22 26c-3 10-14 16-26 12z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M150 54c-6-16 2-30 18-30s26 12 22 26c-3 10-14 16-26 12"/>
+    <path pathLength="1" d="M190 38l16-6-8-6"/>
+    <path pathLength="1" d="M190 38l16 6-10 6"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M150 54c-10 30-98 38-102 90-4 46 74 48 78 70"/>
+    <path pathLength="1" d="M164 62c-6 34-90 42-92 84-2 32 76 36 78 68"/>
+    <path pathLength="1" d="M126 214c4 12 20 12 24 0"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="4" stroke-linecap="round">
+    <path pathLength="1" d="M62 116c6 6 6 14 0 20"/>
+    <path pathLength="1" d="M52 146c6 6 6 14 0 20"/>
+    <path pathLength="1" d="M86 184c6 4 6 12 0 16"/>
+    <path pathLength="1" d="M118 90c6 4 6 12 0 16"/>
+  </g>
+  <g class="tinta" fill="#17141B" opacity="0">
+    <circle pathLength="1" cx="172" cy="42" r="5"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5">
+    <circle pathLength="1" cx="172" cy="42" r="5"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "name": "Papel Vegetal · estudio de tatuaje (demostración)",
+  "short_name": "Papel Vegetal",
+  "description": "Plantilla de demostración para estudio de tatuaje. Negocio ficticio.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#EDE7DC",
+  "theme_color": "#EDE7DC",
+  "lang": "es",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

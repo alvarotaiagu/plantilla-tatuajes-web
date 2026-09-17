@@ -1,0 +1,773 @@
+<!doctype html>
+<!--
+  ============================================================================
+  SITIO DE DEMOSTRACIÓN. «Papel Vegetal, estudio de tatuaje» es un negocio
+  FICTICIO, inventado para esta plantilla. Nombre, dirección, teléfono,
+  horarios, tarifas, artistas y opiniones son datos de muestra y no
+  corresponden a ningún negocio real. No indexar, no citar como fuente.
+  Todos los diseños de flash están dibujados en SVG para esta plantilla: no
+  hay ninguna fotografía de un tatuaje real ni obra de ningún artista
+  identificable.
+  Concepto: «Calco».
+  ============================================================================
+-->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Papel Vegetal · estudio de tatuaje (demostración)</title>
+<meta name="description" content="Plantilla de demostración para estudio de tatuaje. Papel Vegetal es un negocio ficticio: hoja de flash dibujada a mano, tarifas claras y cita previa.">
+<meta name="theme-color" content="#EDE7DC">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Papel Vegetal · estudio de tatuaje (sitio de demostración)">
+<meta property="og:description" content="Negocio ficticio. Plantilla con concepto «Calco»: todo empieza en violeta de plantilla y termina en tinta.">
+<meta property="og:image" content="assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Space+Grotesk:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/estilo.css">
+<!-- Sin JavaScript no hay quien levante la cortina: mejor no enseñarla. -->
+<noscript><style>.cortina { display: none !important; }</style></noscript>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TattooParlor",
+  "name": "Papel Vegetal",
+  "description": "Estudio de tatuaje con cita previa. Negocio ficticio usado como demostración.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Travesa da Calcografía, 3",
+    "postalCode": "15703",
+    "addressLocality": "Santiago de Compostela",
+    "addressRegion": "A Coruña",
+    "addressCountry": "ES"
+  },
+  "telephone": "+34981000034",
+  "email": "citas@papelvegetal.example",
+  "priceRange": "€€",
+  "openingHours": ["Tu-Sa 11:00-20:00"],
+  "disambiguatingDescription": "Negocio ficticio. Sitio de demostración."
+}
+</script>
+</head>
+<body>
+<a class="salto" href="#contenido">Saltar al contenido</a>
+
+<div class="cortina" data-cortina aria-hidden="true">
+  <svg class="cortina__marca" viewBox="0 0 320 120" aria-hidden="true">
+    <g fill="none" stroke="#EDE7DC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path pathLength="1" d="M30 96V24h28c14 0 22 8 22 20s-8 20-22 20H30"/>
+      <path pathLength="1" d="M96 96l26-72 26 72"/>
+      <path pathLength="1" d="M106 72h32"/>
+      <path pathLength="1" d="M168 24v72h44"/>
+      <path pathLength="1" d="M232 24h56"/>
+      <path pathLength="1" d="M260 24v72"/>
+    </g>
+  </svg>
+  <p class="cortina__pie">calcando…</p>
+</div>
+
+<div class="cursor" aria-hidden="true" data-cursor>
+  <span class="cursor__cruz"></span>
+  <span class="cursor__texto"></span>
+</div>
+
+<header class="cabecera" data-cabecera>
+  <a class="marca" href="#inicio">
+    <span class="marca__nombre">Papel Vegetal</span>
+    <span class="marca__cola">estudio de tatuaje</span>
+  </a>
+
+  <button class="hamburguesa" type="button" aria-expanded="false" aria-controls="menu-principal" data-menu-boton>
+    <span class="hamburguesa__lineas" aria-hidden="true"><i></i><i></i></span>
+    <span>Menú</span>
+  </button>
+
+  <nav class="nav" id="menu-principal" aria-label="Navegación principal" data-menu>
+    <ul>
+      <li><a href="#flash">Flash</a></li>
+      <li><a href="#proceso">Cómo va</a></li>
+      <li><a href="#gente">Quién dibuja</a></li>
+      <li><a href="#tarifas">Tarifas</a></li>
+      <li><a href="#cuidados">Cuidados</a></li>
+      <li><a href="#cita">Cita</a></li>
+    </ul>
+    <a class="boton boton--tinta nav__cta" href="#cita">Pedir cita</a>
+  </nav>
+</header>
+
+<main id="contenido">
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero__texto">
+      <p class="kicker">Santiago de Compostela · desde 2017 · solo con cita</p>
+      <h1 class="hero__titulo" data-palabras>Primero se calca. Después ya no hay vuelta atrás.</h1>
+      <p class="hero__entrada">
+        Trabajamos como se ha trabajado siempre: el dibujo se hace en papel, se pasa a
+        calco violeta, se pega en la piel y se mira en el espejo hasta que convence.
+        Solo entonces se enciende la máquina.
+      </p>
+      <div class="hero__acciones">
+        <a class="boton boton--violeta" href="#flash" data-iman>Ver la hoja de flash</a>
+        <a class="boton boton--linea" href="#tarifas" data-iman>Cuánto cuesta</a>
+      </div>
+      <ul class="hero__datos">
+        <li><b data-contador="9" data-sufijo="">0</b><span>años en la travesía</span></li>
+        <li><b data-contador="3" data-sufijo="">0</b><span>personas dibujando</span></li>
+        <li><b data-contador="42" data-sufijo="">0</b><span>diseños de flash vivos</span></li>
+      </ul>
+    </div>
+
+    <figure class="hero__flash" data-hero-flash>
+      <svg class="dibujo" role="img" aria-label="Diseño de flash de una serpiente en ese, dibujado a línea para este estudio." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Serpe</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M150 54c-6-16 2-30 18-30s26 12 22 26c-3 10-14 16-26 12z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M150 54c-6-16 2-30 18-30s26 12 22 26c-3 10-14 16-26 12"/>
+    <path pathLength="1" d="M190 38l16-6-8-6"/>
+    <path pathLength="1" d="M190 38l16 6-10 6"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M150 54c-10 30-98 38-102 90-4 46 74 48 78 70"/>
+    <path pathLength="1" d="M164 62c-6 34-90 42-92 84-2 32 76 36 78 68"/>
+    <path pathLength="1" d="M126 214c4 12 20 12 24 0"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="4" stroke-linecap="round">
+    <path pathLength="1" d="M62 116c6 6 6 14 0 20"/>
+    <path pathLength="1" d="M52 146c6 6 6 14 0 20"/>
+    <path pathLength="1" d="M86 184c6 4 6 12 0 16"/>
+    <path pathLength="1" d="M118 90c6 4 6 12 0 16"/>
+  </g>
+  <g class="tinta" fill="#17141B" opacity="0">
+    <circle pathLength="1" cx="172" cy="42" r="5"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5">
+    <circle pathLength="1" cx="172" cy="42" r="5"/>
+  </g>
+</svg>
+      <figcaption>Serpiente · blackwork · 14 cm · 160 €</figcaption>
+    </figure>
+  </section>
+
+  <!-- ══════════ BANDA DIAGONAL ══════════ -->
+  <div class="banda" aria-hidden="true">
+    <div class="banda__pista" data-banda>
+      <span>papel</span><i>·</i><span>calco</span><i>·</i><span>aguja</span><i>·</i><span>tinta</span><i>·</i>
+      <span>papel</span><i>·</i><span>calco</span><i>·</i><span>aguja</span><i>·</i><span>tinta</span><i>·</i>
+      <span>papel</span><i>·</i><span>calco</span><i>·</i><span>aguja</span><i>·</i><span>tinta</span><i>·</i>
+    </div>
+  </div>
+  <p class="visualmente-oculta">El proceso del estudio, en cuatro palabras: papel, calco, aguja y tinta.</p>
+
+  <!-- ══════════ FLASH ══════════ -->
+  <section class="flash" id="flash" aria-labelledby="t-flash">
+    <div class="flash__cabeza">
+      <p class="indice">01 — La hoja de flash</p>
+      <h2 id="t-flash" data-palabras>Diseños ya dibujados, listos para calcar</h2>
+      <p class="parrafo">
+        Son nuestros: los dibujamos aquí y se tatúan tal cual o con el tamaño cambiado.
+        El precio de la lista es con el tamaño indicado; si lo quieres más grande, sube.
+        Pasa el cursor por encima —o tócalos— para verlos entintados.
+      </p>
+    </div>
+
+    <ul class="flash__rejilla" data-flash>
+      <li class="pieza" data-col="1">
+        <svg class="dibujo" role="img" aria-label="Diseño de flash: golondrina con el ala abierta y la cola en horquilla." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Golondrina</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 118c10-30 38-52 74-58-8 36-34 60-70 74z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 118c10-30 38-52 74-58-8 36-34 60-70 74"/>
+    <path pathLength="1" d="M104 148c14-10 36-14 56-10-16 18-38 26-58 24"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M78 104c-14 2-22 12-22 24 0 16 14 28 34 34 20 6 40 8 58 6-12-16-26-28-40-38-12-10-20-22-30-26z"/>
+    <path pathLength="1" d="M78 104c-6-8-4-18 4-24 10-6 22-4 28 6 4 6 4 14 0 20"/>
+    <path pathLength="1" d="M70 84l-24 6 18 10"/>
+  </g>
+  <g class="tinta" fill="#17141B" opacity="0">
+    <circle pathLength="1" cx="80" cy="88" r="4"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle pathLength="1" cx="80" cy="88" r="4"/>
+    <path pathLength="1" d="M148 168c16 6 30 16 40 30-18 2-34-2-48-10"/>
+    <path pathLength="1" d="M140 172c6 18 8 36 4 54-14-12-22-28-26-44"/>
+    <path pathLength="1" d="M148 168l-8 4"/>
+  </g>
+</svg>
+        <div class="pieza__pie"><h3>Golondrina</h3><p>Tradicional · 9 cm</p><p class="pieza__precio">110 €</p></div>
+      </li>
+      <li class="pieza" data-col="2">
+        <svg class="dibujo" role="img" aria-label="Diseño de flash: puñal atravesando una rosa." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Puñal y rosa</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 18l16 52h-32z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 16l18 56-18 10-18-10z"/>
+    <path pathLength="1" d="M100 30v46"/>
+    <path pathLength="1" d="M64 82h72"/>
+    <path pathLength="1" d="M70 82c0 10 12 14 30 14s30-4 30-14"/>
+    <path pathLength="1" d="M92 170h16v34h-16z"/>
+    <path pathLength="1" d="M86 204h28l-6 20H92z"/>
+    <path pathLength="1" d="M100 96v74"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 104c-24 0-40 14-40 32s16 34 40 34 40-16 40-34-16-32-40-32z"/>
+    <path pathLength="1" d="M100 120c-14 0-24 8-24 18s10 18 24 18 24-8 24-18-10-18-24-18z"/>
+    <path pathLength="1" d="M100 134c-7 0-12 4-12 9s5 9 12 9 12-4 12-9-5-9-12-9z"/>
+    <path pathLength="1" d="M62 152c-14-4-24-16-24-30 14 0 26 6 32 16"/>
+    <path pathLength="1" d="M138 152c14-4 24-16 24-30-14 0-26 6-32 16"/>
+  </g>
+</svg>
+        <div class="pieza__pie"><h3>Puñal y rosa</h3><p>Tradicional · 13 cm</p><p class="pieza__precio">170 €</p></div>
+      </li>
+      <li class="pieza" data-col="3">
+        <svg class="dibujo" role="img" aria-label="Diseño de flash: luna creciente con un ojo dentro." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Luna e ollo</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M128 44c-40 6-68 38-68 76s28 70 68 76c-46 0-84-34-84-76s38-76 84-76z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M132 40c-44 4-76 38-76 80s32 76 76 80c-52 2-94-34-94-80s42-82 94-80z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M60 120c10-16 26-26 44-26s34 10 44 26c-10 16-26 26-44 26s-34-10-44-26z"/>
+    <circle pathLength="1" cx="104" cy="120" r="14"/>
+  </g>
+  <g class="tinta" fill="#17141B" opacity="0">
+    <circle pathLength="1" cx="104" cy="120" r="7"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round">
+    <path pathLength="1" d="M160 58l14-14"/>
+    <path pathLength="1" d="M172 100l18-4"/>
+    <path pathLength="1" d="M160 182l14 14"/>
+    <path pathLength="1" d="M100 30V14"/>
+    <path pathLength="1" d="M100 210v16"/>
+  </g>
+</svg>
+        <div class="pieza__pie"><h3>Luna y ojo</h3><p>Ornamental · 11 cm</p><p class="pieza__precio">140 €</p></div>
+      </li>
+      <li class="pieza" data-col="1">
+        <svg class="dibujo" role="img" aria-label="Diseño de flash: polilla simétrica con las alas abiertas." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Polilla</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 96c-26-30-52-42-72-34-16 6-20 26-10 46 12 24 42 38 82 40z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 96c-26-32-54-46-76-38-18 6-22 28-10 50 14 26 46 40 86 42"/>
+    <path pathLength="1" d="M100 96c26-32 54-46 76-38 18 6 22 28 10 50-14 26-46 40-86 42"/>
+    <path pathLength="1" d="M100 150c-20 2-34 14-38 32-2 12 4 22 14 24 12 2 20-10 24-26"/>
+    <path pathLength="1" d="M100 150c20 2 34 14 38 32 2 12-4 22-14 24-12 2-20-10-24-26"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 74c8 0 12 8 12 18v72c0 14-5 24-12 24s-12-10-12-24V92c0-10 4-18 12-18z"/>
+    <path pathLength="1" d="M100 74c-4-12-14-20-26-22"/>
+    <path pathLength="1" d="M100 74c4-12 14-20 26-22"/>
+    <path pathLength="1" d="M88 120h24"/>
+    <path pathLength="1" d="M88 146h24"/>
+  </g>
+  <g class="tinta" fill="#17141B" opacity="0">
+    <circle pathLength="1" cx="70" cy="110" r="8"/>
+    <circle pathLength="1" cx="130" cy="110" r="8"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5">
+    <circle pathLength="1" cx="70" cy="110" r="8"/>
+    <circle pathLength="1" cx="130" cy="110" r="8"/>
+  </g>
+</svg>
+        <div class="pieza__pie"><h3>Polilla</h3><p>Línea fina · 8 cm</p><p class="pieza__precio">95 €</p></div>
+      </li>
+      <li class="pieza" data-col="2">
+        <svg class="dibujo" role="img" aria-label="Diseño de flash: ancla con cuerda enrollada." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Áncora</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 150c22 0 40 14 46 34-14 10-30 16-46 16s-32-6-46-16c6-20 24-34 46-34z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle pathLength="1" cx="100" cy="42" r="18"/>
+    <path pathLength="1" d="M100 60v148"/>
+    <path pathLength="1" d="M62 86h76"/>
+    <path pathLength="1" d="M40 150c0 34 26 58 60 58s60-24 60-58"/>
+    <path pathLength="1" d="M40 150l-16 10 22 8"/>
+    <path pathLength="1" d="M160 150l16 10-22 8"/>
+    <path pathLength="1" d="M86 196h28"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 84c-20 8-34 22-34 38"/>
+    <path pathLength="1" d="M100 100c-14 6-22 16-22 26"/>
+    <path pathLength="1" d="M100 84c20 8 34 22 34 38"/>
+    <path pathLength="1" d="M100 100c14 6 22 16 22 26"/>
+  </g>
+</svg>
+        <div class="pieza__pie"><h3>Ancla</h3><p>Tradicional · 10 cm</p><p class="pieza__precio">120 €</p></div>
+      </li>
+      <li class="pieza" data-col="3">
+        <svg class="dibujo" role="img" aria-label="Diseño de flash: hoja de helecho con el cayado enroscado." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Fento</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 226c0-60 8-110 22-150 6-16 14-28 22-36-20 10-34 28-44 54-12 32-18 76-18 132z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 228c0-72 10-124 30-158 8-14 18-24 28-30"/>
+    <path pathLength="1" d="M158 40c10-6 18-4 22 4 4 10-2 20-12 22-12 2-20-6-18-16"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M104 190c-16-2-28-10-34-24 16-2 28 4 36 16"/>
+    <path pathLength="1" d="M110 160c-16-2-28-10-34-24 16-2 28 4 36 16"/>
+    <path pathLength="1" d="M118 130c-14-2-26-10-32-22 16-2 26 4 34 14"/>
+    <path pathLength="1" d="M128 102c-12-2-22-8-28-18 14-2 24 2 30 12"/>
+    <path pathLength="1" d="M138 78c-10-2-18-8-22-16 12 0 20 4 26 12"/>
+    <path pathLength="1" d="M110 200c14 0 26 6 34 18-16 4-28 0-38-10"/>
+    <path pathLength="1" d="M116 168c14 0 26 6 34 18-16 4-28 0-38-10"/>
+    <path pathLength="1" d="M124 138c12 0 24 6 30 16-14 4-26 0-34-8"/>
+    <path pathLength="1" d="M134 110c10 0 20 6 26 14-14 4-24 0-30-6"/>
+  </g>
+</svg>
+        <div class="pieza__pie"><h3>Helecho</h3><p>Botánico · 15 cm</p><p class="pieza__precio">130 €</p></div>
+      </li>
+      <li class="pieza" data-col="1">
+        <svg class="dibujo" role="img" aria-label="Diseño de flash: vela encendida en su palmatoria, con la cera chorreando." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Vela</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 24c12 16 18 28 18 38 0 11-8 19-18 19s-18-8-18-19c0-10 6-22 18-38z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 22c13 16 21 30 21 42 0 12-9 21-21 21s-21-9-21-21c0-12 8-26 21-42z"/>
+    <path pathLength="1" d="M100 54c5 7 8 13 8 19 0 6-4 10-8 10s-8-4-8-10c0-6 3-12 8-19z"/>
+    <path pathLength="1" d="M100 86v14"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M76 100h48v78H76z"/>
+    <path pathLength="1" d="M76 116c8 6 16 6 24 0s16-6 24 0"/>
+    <path pathLength="1" d="M86 116v22c0 6 8 6 8 0v-12"/>
+    <path pathLength="1" d="M114 118v16c0 6-8 6-8 0v-8"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M56 178h88l-10 20H66z"/>
+    <path pathLength="1" d="M66 198c-6 6-10 12-10 20h88c0-8-4-14-10-20"/>
+    <path pathLength="1" d="M56 218h88"/>
+    <path pathLength="1" d="M144 196c14 2 22 10 22 20-8 2-16 0-22-6"/>
+  </g>
+</svg>
+        <div class="pieza__pie"><h3>Vela</h3><p>Blackwork · 12 cm</p><p class="pieza__precio">150 €</p></div>
+      </li>
+      <li class="pieza" data-col="2">
+        <svg class="dibujo" role="img" aria-label="Diseño de flash: faro con el haz encendido sobre el mar." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Faro</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 62l60-24-60 44z"/>
+    <path pathLength="1" d="M100 62L40 38l60 44z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 30l-14 14h28z"/>
+    <path pathLength="1" d="M82 44h36v34H82z"/>
+    <path pathLength="1" d="M82 60h36"/>
+    <path pathLength="1" d="M76 78h48"/>
+    <path pathLength="1" d="M84 78l-12 108h56L116 78z"/>
+    <path pathLength="1" d="M78 130h44"/>
+    <path pathLength="1" d="M80 112h40"/>
+    <path pathLength="1" d="M74 154h52"/>
+    <path pathLength="1" d="M60 186h80"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M124 48l40-16"/>
+    <path pathLength="1" d="M128 62l46-2"/>
+    <path pathLength="1" d="M76 48L36 32"/>
+    <path pathLength="1" d="M72 62l-46-2"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M32 206c14-8 26-8 40 0s26 8 40 0 26-8 40 0"/>
+    <path pathLength="1" d="M32 226c14-8 26-8 40 0s26 8 40 0 26-8 40 0"/>
+  </g>
+</svg>
+        <div class="pieza__pie"><h3>Faro</h3><p>Tradicional · 14 cm</p><p class="pieza__precio">165 €</p></div>
+      </li>
+      <li class="pieza" data-col="3">
+        <svg class="dibujo" role="img" aria-label="Diseño de flash: corazón cruzado por una cinta." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Corazón con cinta</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 74c-12-20-32-28-50-20-20 10-26 36-12 60 12 22 34 42 62 62-4-36-4-70 0-102z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 76c-14-22-36-30-56-20-22 10-28 40-12 66 14 24 38 46 68 68 30-22 54-44 68-68 16-26 10-56-12-66-20-10-42-2-56 20z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M28 128c26 12 74 12 144 0"/>
+    <path pathLength="1" d="M28 152c26 12 74 12 144 0"/>
+    <path pathLength="1" d="M28 128c-10 4-16 12-18 22 8 4 16 4 22 2"/>
+    <path pathLength="1" d="M172 128c10 4 16 12 18 22-8 4-16 4-22 2"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M62 62c-6 8-8 16-6 24"/>
+    <path pathLength="1" d="M78 54c-6 6-8 12-8 18"/>
+  </g>
+</svg>
+        <div class="pieza__pie"><h3>Corazón y cinta</h3><p>Tradicional · 10 cm</p><p class="pieza__precio">125 €</p></div>
+      </li>
+    </ul>
+
+    <p class="flash__nota">
+      Los diez diseños de esta página están dibujados por el estudio para esta demostración.
+      Si traes una idea tuya, se dibuja de cero y se cobra igual por tiempo, no por diseño.
+    </p>
+  </section>
+
+  <!-- ══════════ PROCESO ══════════ -->
+  <section class="proceso" id="proceso" aria-labelledby="t-proceso">
+    <div class="proceso__cabeza">
+      <p class="indice">02 — Del calco a la piel</p>
+      <h2 id="t-proceso" data-palabras>Cuatro pasos y ninguna sorpresa</h2>
+    </div>
+
+    <ol class="pasos" data-pasos>
+      <li class="paso">
+        <p class="paso__num">01</p>
+        <h3>Hablamos</h3>
+        <p>Veinte minutos, en el estudio o por teléfono. Traes la idea, la zona y el
+        tamaño; salimos con un presupuesto cerrado y una fecha. No cobramos la consulta.</p>
+        <p class="paso__dato">Gratis</p>
+      </li>
+      <li class="paso">
+        <p class="paso__num">02</p>
+        <h3>Dibujamos</h3>
+        <p>El diseño se hace a mano y se enseña dos días antes de la cita. Se cambia lo que
+        haga falta: dos vueltas de cambios están incluidas en la señal.</p>
+        <p class="paso__dato">Señal de 40 €</p>
+      </li>
+      <li class="paso">
+        <p class="paso__num">03</p>
+        <h3>Calcamos</h3>
+        <p>Papel de calco violeta sobre la piel, y al espejo. Aquí se decide la colocación
+        definitiva: es el momento de mover, girar o agrandar. Cuando dices que sí, empezamos.</p>
+        <p class="paso__dato">El momento de dudar</p>
+      </li>
+      <li class="paso">
+        <p class="paso__num">04</p>
+        <h3>Tatuamos</h3>
+        <p>Material de un solo uso, abierto delante de ti. Descansos cuando los pidas.
+        Al terminar, film, instrucciones por escrito y una cita de retoque a los dos meses.</p>
+        <p class="paso__dato">Retoque incluido</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ══════════ GENTE ══════════ -->
+  <section class="gente" id="gente" aria-labelledby="t-gente">
+    <div class="gente__cabeza">
+      <p class="indice">03 — Quién dibuja</p>
+      <h2 id="t-gente" data-palabras>Tres manos, tres cuadernos</h2>
+      <p class="parrafo">
+        Cada una tiene su agenda y su estilo. Si no sabes a quién pedir cita, escribe al
+        estudio y te decimos quién encaja mejor con lo que traes.
+      </p>
+    </div>
+
+    <ul class="gente__lista">
+      <li class="ficha">
+        <svg class="dibujo" role="img" aria-label="Helecho a línea fina, muestra del estilo de Uxía Bermúdez." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Fento</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 226c0-60 8-110 22-150 6-16 14-28 22-36-20 10-34 28-44 54-12 32-18 76-18 132z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 228c0-72 10-124 30-158 8-14 18-24 28-30"/>
+    <path pathLength="1" d="M158 40c10-6 18-4 22 4 4 10-2 20-12 22-12 2-20-6-18-16"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M104 190c-16-2-28-10-34-24 16-2 28 4 36 16"/>
+    <path pathLength="1" d="M110 160c-16-2-28-10-34-24 16-2 28 4 36 16"/>
+    <path pathLength="1" d="M118 130c-14-2-26-10-32-22 16-2 26 4 34 14"/>
+    <path pathLength="1" d="M128 102c-12-2-22-8-28-18 14-2 24 2 30 12"/>
+    <path pathLength="1" d="M138 78c-10-2-18-8-22-16 12 0 20 4 26 12"/>
+    <path pathLength="1" d="M110 200c14 0 26 6 34 18-16 4-28 0-38-10"/>
+    <path pathLength="1" d="M116 168c14 0 26 6 34 18-16 4-28 0-38-10"/>
+    <path pathLength="1" d="M124 138c12 0 24 6 30 16-14 4-26 0-34-8"/>
+    <path pathLength="1" d="M134 110c10 0 20 6 26 14-14 4-24 0-30-6"/>
+  </g>
+</svg>
+        <div>
+          <h3>Uxía Bermúdez</h3>
+          <p class="ficha__estilo">Línea fina y botánica</p>
+          <p>Dibuja plantas de aquí: helechos, hojas de higuera, espigas. Le gustan las
+          piezas pequeñas y los antebrazos. Tatúa martes, miércoles y sábados.</p>
+          <p class="ficha__espera">Espera aproximada: 3 semanas</p>
+        </div>
+      </li>
+      <li class="ficha">
+        <svg class="dibujo" role="img" aria-label="Ancla de estilo tradicional, muestra del estilo de Rai Ferreiro." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Áncora</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 150c22 0 40 14 46 34-14 10-30 16-46 16s-32-6-46-16c6-20 24-34 46-34z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle pathLength="1" cx="100" cy="42" r="18"/>
+    <path pathLength="1" d="M100 60v148"/>
+    <path pathLength="1" d="M62 86h76"/>
+    <path pathLength="1" d="M40 150c0 34 26 58 60 58s60-24 60-58"/>
+    <path pathLength="1" d="M40 150l-16 10 22 8"/>
+    <path pathLength="1" d="M160 150l16 10-22 8"/>
+    <path pathLength="1" d="M86 196h28"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 84c-20 8-34 22-34 38"/>
+    <path pathLength="1" d="M100 100c-14 6-22 16-22 26"/>
+    <path pathLength="1" d="M100 84c20 8 34 22 34 38"/>
+    <path pathLength="1" d="M100 100c14 6 22 16 22 26"/>
+  </g>
+</svg>
+        <div>
+          <h3>Rai Ferreiro</h3>
+          <p class="ficha__estilo">Tradicional americano</p>
+          <p>Línea gruesa, negro sólido y rojo. Golondrinas, anclas, puñales y todo lo que
+          lleva cinta. Tatúa de miércoles a sábado.</p>
+          <p class="ficha__espera">Espera aproximada: 6 semanas</p>
+        </div>
+      </li>
+      <li class="ficha">
+        <svg class="dibujo" role="img" aria-label="Luna con un ojo, muestra del estilo de Noa Quiroga." xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <title>Luna e ollo</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M128 44c-40 6-68 38-68 76s28 70 68 76c-46 0-84-34-84-76s38-76 84-76z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M132 40c-44 4-76 38-76 80s32 76 76 80c-52 2-94-34-94-80s42-82 94-80z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M60 120c10-16 26-26 44-26s34 10 44 26c-10 16-26 26-44 26s-34-10-44-26z"/>
+    <circle pathLength="1" cx="104" cy="120" r="14"/>
+  </g>
+  <g class="tinta" fill="#17141B" opacity="0">
+    <circle pathLength="1" cx="104" cy="120" r="7"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round">
+    <path pathLength="1" d="M160 58l14-14"/>
+    <path pathLength="1" d="M172 100l18-4"/>
+    <path pathLength="1" d="M160 182l14 14"/>
+    <path pathLength="1" d="M100 30V14"/>
+    <path pathLength="1" d="M100 210v16"/>
+  </g>
+</svg>
+        <div>
+          <h3>Noa Quiroga</h3>
+          <p class="ficha__estilo">Blackwork y ornamental</p>
+          <p>Manchas grandes, simetrías y piezas que envuelven el brazo. Trabaja por
+          sesiones largas y prefiere proyectos de más de una cita. Tatúa jueves y viernes.</p>
+          <p class="ficha__espera">Espera aproximada: 9 semanas</p>
+        </div>
+      </li>
+    </ul>
+    <p class="gente__nota">Personas inventadas para esta demostración. Las muestras de estilo son diseños propios de la plantilla.</p>
+  </section>
+
+  <!-- ══════════ TARIFAS ══════════ -->
+  <section class="tarifas" id="tarifas" aria-labelledby="t-tarifas">
+    <div class="tarifas__cabeza">
+      <p class="indice">04 — Tarifas</p>
+      <h2 id="t-tarifas" data-palabras>Se cobra el tiempo, no la idea</h2>
+    </div>
+
+    <div class="tarifas__cuerpo">
+      <table class="tabla">
+        <caption class="visualmente-oculta">Tarifas del estudio, IVA incluido</caption>
+        <tbody>
+          <tr><th scope="row">Mínimo de estudio</th><td>60 €</td><td>Cualquier pieza, por pequeña que sea</td></tr>
+          <tr><th scope="row">Hora suelta</th><td>80 €</td><td>Para piezas de menos de dos horas</td></tr>
+          <tr><th scope="row">Media sesión</th><td>150 €</td><td>Dos horas seguidas</td></tr>
+          <tr><th scope="row">Sesión completa</th><td>280 €</td><td>Cuatro horas con descansos</td></tr>
+          <tr><th scope="row">Señal</th><td>40 €</td><td>Se descuenta del total el día de la cita</td></tr>
+          <tr><th scope="row">Retoque</th><td>0 €</td><td>Una vez, entre el segundo y el cuarto mes</td></tr>
+        </tbody>
+      </table>
+
+      <aside class="condiciones">
+        <h3>Antes de reservar</h3>
+        <ul>
+          <li>Solo tatuamos a mayores de 18 años. Traer DNI o pasaporte, sin excepciones.</li>
+          <li>La señal no se devuelve si cancelas con menos de 48 horas.</li>
+          <li>No tatuamos manos, cuello ni cara en un primer tatuaje.</li>
+          <li>No tatuamos a nadie que venga bebido, y no se puede beber antes de la sesión.</li>
+          <li>Efectivo o tarjeta. Bizum solo para la señal.</li>
+        </ul>
+        <p class="condiciones__aviso">Tarifas ficticias, escritas para esta demostración.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ══════════ CUIDADOS ══════════ -->
+  <section class="cuidados" id="cuidados" aria-labelledby="t-cuidados">
+    <div class="cuidados__cabeza">
+      <p class="indice">05 — Antes y después</p>
+      <h2 id="t-cuidados" data-palabras>Lo que te vamos a decir en la puerta</h2>
+    </div>
+
+    <div class="cuidados__rejilla">
+      <div class="lista">
+        <h3>Antes de la cita</h3>
+        <ol>
+          <li>Duerme y come. Una sesión con el estómago vacío se hace muy larga.</li>
+          <li>Ven con ropa cómoda que deje la zona al aire.</li>
+          <li>Nada de alcohol las 24 horas de antes.</li>
+          <li>Si estás con una medicación o tienes cualquier duda de salud, pregúntale antes a tu médico: en el estudio no damos consejo médico.</li>
+        </ol>
+      </div>
+      <div class="lista">
+        <h3>Los días siguientes</h3>
+        <ol>
+          <li>Quita el film cuando te digamos y lava con agua templada y jabón neutro.</li>
+          <li>Crema fina, dos o tres veces al día. Menos es mejor que más.</li>
+          <li>Nada de piscina, playa ni sol directo durante tres semanas.</li>
+          <li>No rasques la costra aunque pique.</li>
+          <li>Si aparece algo que no esperabas —dolor que crece, calor, fiebre—, ve al médico. Y avísanos.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ PREGUNTAS ══════════ -->
+  <section class="preguntas" aria-labelledby="t-preguntas">
+    <h2 id="t-preguntas" data-palabras>Lo que más nos preguntan</h2>
+    <div class="acordeon">
+      <details>
+        <summary>¿Duele?</summary>
+        <p>Sí, pero es un dolor soportable y con pausas. Las zonas con hueso cerca
+        —costillas, tobillo, empeine— molestan más que un antebrazo o un muslo. Si necesitas
+        parar, se para: no hay ningún premio por aguantar.</p>
+      </details>
+      <details>
+        <summary>¿Puedo llevar mi propio dibujo?</summary>
+        <p>Claro. Lo miramos y te decimos con franqueza si funciona como tatuaje tal cual o
+        si hay que rehacerlo. Lo que no hacemos es copiar el trabajo de otro tatuador:
+        si te gusta una pieza de alguien, lo suyo es ir a esa persona.</p>
+      </details>
+      <details>
+        <summary>¿Cuánto tarda en curar?</summary>
+        <p>La capa de arriba cierra en una semana o diez días; el color se asienta durante
+        el mes siguiente. Por eso el retoque se hace a partir del segundo mes y no antes.</p>
+      </details>
+      <details>
+        <summary>¿Hacéis coberturas de tatuajes viejos?</summary>
+        <p>Algunas sí. Manda una foto con buena luz antes de pedir cita: hay piezas que se
+        tapan bien y otras que necesitan primero unas sesiones de láser, que no hacemos aquí.</p>
+      </details>
+      <details>
+        <summary>¿Se puede pagar a plazos un proyecto grande?</summary>
+        <p>Sí. Un proyecto de varias sesiones se paga sesión a sesión, el mismo día. No
+        cobramos nada por adelantado más allá de la señal de la primera cita.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ══════════ CITA ══════════ -->
+  <section class="cita" id="cita" aria-labelledby="t-cita">
+    <div class="cita__cabeza">
+      <p class="indice">06 — Pedir cita</p>
+      <h2 id="t-cita" data-palabras>Travesa da Calcografía, 3</h2>
+    </div>
+
+    <div class="cita__rejilla">
+      <form class="formulario" data-cita novalidate>
+        <p class="campo">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+        </p>
+        <p class="campo">
+          <label for="contacto">Teléfono o correo</label>
+          <input id="contacto" name="contacto" type="text" autocomplete="tel" required>
+        </p>
+        <p class="campo">
+          <label for="artista">Con quién</label>
+          <select id="artista" name="artista">
+            <option>Me da igual, recomiéndame</option>
+            <option>Uxía Bermúdez · línea fina</option>
+            <option>Rai Ferreiro · tradicional</option>
+            <option>Noa Quiroga · blackwork</option>
+          </select>
+        </p>
+        <p class="campo">
+          <label for="idea">Qué quieres, dónde y de qué tamaño</label>
+          <textarea id="idea" name="idea" rows="4" required>Un helecho de unos 12 cm en el antebrazo, por dentro</textarea>
+        </p>
+        <p class="campo campo--linea">
+          <input id="mayor" name="mayor" type="checkbox">
+          <label for="mayor">Confirmo que tengo 18 años o más</label>
+        </p>
+        <button class="boton boton--violeta" type="submit" data-iman>Enviar la petición</button>
+        <p class="formulario__estado" data-cita-estado role="status"></p>
+        <p class="formulario__demo">Formulario de muestra: no envía nada a ningún sitio ni guarda lo que escribas.</p>
+      </form>
+
+      <div class="donde">
+        <h3>El estudio</h3>
+        <p class="donde__estado" data-estado>Comprobando el horario…</p>
+        <address>
+          Travesa da Calcografía, 3 · bajo<br>
+          15703 Santiago de Compostela<br>
+          <a href="tel:+34981000034">981 00 00 34</a><br>
+          <a href="mailto:citas@papelvegetal.example">citas@papelvegetal.example</a>
+        </address>
+        <dl class="horario">
+          <div><dt>Martes a sábado</dt><dd>11:00 – 20:00</dd></div>
+          <div><dt>Domingo y lunes</dt><dd>Cerrado</dd></div>
+          <div><dt>Sin cita</dt><dd>Solo para consultas y para comprar cuidados</dd></div>
+        </dl>
+        <p class="donde__nota">
+          Bajo sin escalones, en una travesía peatonal. La parada de bus más cercana está a
+          150 metros. Redes sociales de muestra: @papelvegetal.estudio (no enlazadas, porque
+          el estudio no existe).
+        </p>
+        <div class="mapa" data-mapa>
+          <button class="boton boton--tinta" type="button" data-mapa-boton>Cargar el mapa de Google</button>
+          <p class="mapa__aviso">El mapa se carga solo si lo pides: hasta entonces esta web no llama a ningún servidor de terceros.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="pie__marca">
+    <span class="marca__nombre">Papel Vegetal</span>
+    <p>Estudio de tatuaje · Travesa da Calcografía, 3 · Santiago de Compostela</p>
+  </div>
+  <nav class="pie__nav" aria-label="Enlaces del pie">
+    <ul>
+      <li><a href="#flash">Hoja de flash</a></li>
+      <li><a href="#tarifas">Tarifas</a></li>
+      <li><a href="#cita">Pedir cita</a></li>
+      <li><a href="legal.html">Aviso legal y privacidad</a></li>
+    </ul>
+  </nav>
+  <p class="pie__sello">
+    <strong>Sitio de demostración.</strong> Papel Vegetal es un negocio ficticio; los datos,
+    tarifas, artistas y diseños son de muestra. Ningún dato de esta página corresponde a un
+    negocio real. Todos los dibujos son originales de esta plantilla: no hay ninguna
+    fotografía de un tatuaje real ni obra de ningún artista identificable.
+  </p>
+</footer>
+
+<div class="cookie-banner" data-cookies hidden>
+  <p>Esta web usa una única cookie técnica para recordar que has visto este aviso. No hay analítica, ni seguimiento, ni cookies de terceros: el mapa de Google solo se carga si pulsas el botón.</p>
+  <div class="cookie-banner__acciones">
+    <button class="boton boton--tinta" type="button" data-cookies-ok>Entendido</button>
+    <a class="boton boton--linea" href="legal.html#cookies">Leer más</a>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

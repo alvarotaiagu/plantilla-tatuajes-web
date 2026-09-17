@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Diseño de flash: un faro con el haz de luz encendido">
+  <title>Faro</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 62l60-24-60 44z"/>
+    <path pathLength="1" d="M100 62L40 38l60 44z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 30l-14 14h28z"/>
+    <path pathLength="1" d="M82 44h36v34H82z"/>
+    <path pathLength="1" d="M82 60h36"/>
+    <path pathLength="1" d="M76 78h48"/>
+    <path pathLength="1" d="M84 78l-12 108h56L116 78z"/>
+    <path pathLength="1" d="M78 130h44"/>
+    <path pathLength="1" d="M80 112h40"/>
+    <path pathLength="1" d="M74 154h52"/>
+    <path pathLength="1" d="M60 186h80"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M124 48l40-16"/>
+    <path pathLength="1" d="M128 62l46-2"/>
+    <path pathLength="1" d="M76 48L36 32"/>
+    <path pathLength="1" d="M72 62l-46-2"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M32 206c14-8 26-8 40 0s26 8 40 0 26-8 40 0"/>
+    <path pathLength="1" d="M32 226c14-8 26-8 40 0s26 8 40 0 26-8 40 0"/>
+  </g>
+</svg>

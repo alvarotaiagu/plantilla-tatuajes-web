@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Diseño de flash: una luna creciente con un ojo dentro">
+  <title>Luna e ollo</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M128 44c-40 6-68 38-68 76s28 70 68 76c-46 0-84-34-84-76s38-76 84-76z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M132 40c-44 4-76 38-76 80s32 76 76 80c-52 2-94-34-94-80s42-82 94-80z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M60 120c10-16 26-26 44-26s34 10 44 26c-10 16-26 26-44 26s-34-10-44-26z"/>
+    <circle pathLength="1" cx="104" cy="120" r="14"/>
+  </g>
+  <g class="tinta" fill="#17141B" opacity="0">
+    <circle pathLength="1" cx="104" cy="120" r="7"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round">
+    <path pathLength="1" d="M160 58l14-14"/>
+    <path pathLength="1" d="M172 100l18-4"/>
+    <path pathLength="1" d="M160 182l14 14"/>
+    <path pathLength="1" d="M100 30V14"/>
+    <path pathLength="1" d="M100 210v16"/>
+  </g>
+</svg>

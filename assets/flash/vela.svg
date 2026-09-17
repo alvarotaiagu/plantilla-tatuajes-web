@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Diseño de flash: una vela encendida en su palmatoria, con la cera chorreando">
+  <title>Vela</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 24c12 16 18 28 18 38 0 11-8 19-18 19s-18-8-18-19c0-10 6-22 18-38z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 22c13 16 21 30 21 42 0 12-9 21-21 21s-21-9-21-21c0-12 8-26 21-42z"/>
+    <path pathLength="1" d="M100 54c5 7 8 13 8 19 0 6-4 10-8 10s-8-4-8-10c0-6 3-12 8-19z"/>
+    <path pathLength="1" d="M100 86v14"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M76 100h48v78H76z"/>
+    <path pathLength="1" d="M76 116c8 6 16 6 24 0s16-6 24 0"/>
+    <path pathLength="1" d="M86 116v22c0 6 8 6 8 0v-12"/>
+    <path pathLength="1" d="M114 118v16c0 6-8 6-8 0v-8"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M56 178h88l-10 20H66z"/>
+    <path pathLength="1" d="M66 198c-6 6-10 12-10 20h88c0-8-4-14-10-20"/>
+    <path pathLength="1" d="M56 218h88"/>
+    <path pathLength="1" d="M144 196c14 2 22 10 22 20-8 2-16 0-22-6"/>
+  </g>
+</svg>

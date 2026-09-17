@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Diseño de flash: un ancla con una cuerda enrollada">
+  <title>Áncora</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 150c22 0 40 14 46 34-14 10-30 16-46 16s-32-6-46-16c6-20 24-34 46-34z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle pathLength="1" cx="100" cy="42" r="18"/>
+    <path pathLength="1" d="M100 60v148"/>
+    <path pathLength="1" d="M62 86h76"/>
+    <path pathLength="1" d="M40 150c0 34 26 58 60 58s60-24 60-58"/>
+    <path pathLength="1" d="M40 150l-16 10 22 8"/>
+    <path pathLength="1" d="M160 150l16 10-22 8"/>
+    <path pathLength="1" d="M86 196h28"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 84c-20 8-34 22-34 38"/>
+    <path pathLength="1" d="M100 100c-14 6-22 16-22 26"/>
+    <path pathLength="1" d="M100 84c20 8 34 22 34 38"/>
+    <path pathLength="1" d="M100 100c14 6 22 16 22 26"/>
+  </g>
+</svg>

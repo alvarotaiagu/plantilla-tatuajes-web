@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Diseño de flash: una polilla simétrica con las alas abiertas">
+  <title>Polilla</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 96c-26-30-52-42-72-34-16 6-20 26-10 46 12 24 42 38 82 40z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 96c-26-32-54-46-76-38-18 6-22 28-10 50 14 26 46 40 86 42"/>
+    <path pathLength="1" d="M100 96c26-32 54-46 76-38 18 6 22 28 10 50-14 26-46 40-86 42"/>
+    <path pathLength="1" d="M100 150c-20 2-34 14-38 32-2 12 4 22 14 24 12 2 20-10 24-26"/>
+    <path pathLength="1" d="M100 150c20 2 34 14 38 32 2 12-4 22-14 24-12 2-20-10-24-26"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 74c8 0 12 8 12 18v72c0 14-5 24-12 24s-12-10-12-24V92c0-10 4-18 12-18z"/>
+    <path pathLength="1" d="M100 74c-4-12-14-20-26-22"/>
+    <path pathLength="1" d="M100 74c4-12 14-20 26-22"/>
+    <path pathLength="1" d="M88 120h24"/>
+    <path pathLength="1" d="M88 146h24"/>
+  </g>
+  <g class="tinta" fill="#17141B" opacity="0">
+    <circle pathLength="1" cx="70" cy="110" r="8"/>
+    <circle pathLength="1" cx="130" cy="110" r="8"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5">
+    <circle pathLength="1" cx="70" cy="110" r="8"/>
+    <circle pathLength="1" cx="130" cy="110" r="8"/>
+  </g>
+</svg>

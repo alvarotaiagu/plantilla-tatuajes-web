@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Diseño de flash: un corazón con una cinta cruzada">
+  <title>Corazón con cinta</title>
+  <g class="tinta" fill="#6C3BF4" opacity="0">
+    <path pathLength="1" d="M100 74c-12-20-32-28-50-20-20 10-26 36-12 60 12 22 34 42 62 62-4-36-4-70 0-102z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M100 76c-14-22-36-30-56-20-22 10-28 40-12 66 14 24 38 46 68 68 30-22 54-44 68-68 16-26 10-56-12-66-20-10-42-2-56 20z"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M28 128c26 12 74 12 144 0"/>
+    <path pathLength="1" d="M28 152c26 12 74 12 144 0"/>
+    <path pathLength="1" d="M28 128c-10 4-16 12-18 22 8 4 16 4 22 2"/>
+    <path pathLength="1" d="M172 128c10 4 16 12 18 22-8 4-16 4-22 2"/>
+  </g>
+  <g class="trazo" fill="none" stroke="#17141B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path pathLength="1" d="M62 62c-6 8-8 16-6 24"/>
+    <path pathLength="1" d="M78 54c-6 6-8 12-8 18"/>
+  </g>
+</svg>
