@@ -10,7 +10,7 @@
   --papel: #F7F3EA;
   --tinta: #17141B;
   --tinta-70: rgba(23, 20, 27, 0.7);
-  --tinta-45: rgba(23, 20, 27, 0.45);
+  --tinta-45: rgba(23, 20, 27, 0.66); /* era 0.45: 2,84 de contraste sobre el hueso */
   --tinta-14: rgba(23, 20, 27, 0.14);
   --violeta: #6C3BF4;
   --rosa: #FF3D6E;
